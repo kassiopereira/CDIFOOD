@@ -75,7 +75,7 @@ class SysBank:
                 data = registro["data"]
                 valor = registro["valor"]
                 print(f"Data: {data.strftime('%d/%m/%Y')} - Valor: {valor:.2f}")
-            print(f"Seu saldo é o valor de R$ ",self.saldo) 
+            print(f"Seu saldo é o valor de: R$ ",self.saldo) 
             print("\n=============================================================")
             return   
 
