@@ -39,7 +39,7 @@ class SysBank:
            self.saldo += valordep
            data = datetime.datetime.now()
            registro = {"data": data, "valor": valordep}
-           self.extrato.append(registro)
+           self.extrato.append(registro) 
            print(f"Seu novo saldo é o valor de R$ {self.saldo:.2f} ")
          
         else:
